@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .listform {
+    background: linear-gradient(
+      rgba(190, 157, 87, 0.703),
+      rgba(94, 255, 0, 0.642)
+    );
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  input {
+    height: 50px;
+    width: 25vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+  }
+  input:hover {
+    border: 1px solid blue;
+  }
+  .text {
+    text-align: center;
+  }
+  .submit {
+    background-color: rgb(76, 114, 217);
+    height: 2rem;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  .acc {
+    background-color: transparent;
+    color: blueviolet;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    cursor: pointer;
+  }
+  .error {
+    color: red;
+  }
+  .gird {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+  }
+  th {
+    text-align: left;
+    color: red;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+  }
+  th,
+  td {
+    padding: 7px;
+   
+  }
+  td {
+    
+    background:linear-gradient(rgb(0, 255, 187),rgb(0, 234, 255));
+   
+    
+  }
+  i{
+    font-size: 5rem;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+  i:hover{
+  color:rgb(255, 136, 0);
+  font-size: 1rem;
+  }
+  
